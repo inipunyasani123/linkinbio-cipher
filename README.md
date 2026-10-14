@@ -2,7 +2,7 @@
 
 Tautan c1ph3r, peneliti keamanan dan pemain CTF: writeup soal CTF, kebijakan pengungkapan 90 hari, jadwal seminar dan workshop, serta formulir kontak — dalam satu terminal.
 
-**Demo live:** https://linkinbio-cipher.vercel.app
+**Demo live:** https://linkinbio-cipher.pintuweb.id
 
 ![Tangkapan layar cipher](public/og.jpg)
 

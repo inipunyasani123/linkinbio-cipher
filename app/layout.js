@@ -3,10 +3,10 @@ import "./globals.css";
 
 const jbmono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-jbmono", weight: ["400", "700"] });
 
-const __jsonld = {"@context":"https://schema.org","@type":"ProfilePage","mainEntity":{"@type":"Person","name":"cipher","jobTitle":"Security Researcher","url":"https://linkinbio-cipher.vercel.app","inLanguage":"id"}};
+const __jsonld = {"@context":"https://schema.org","@type":"ProfilePage","mainEntity":{"@type":"Person","name":"cipher","jobTitle":"Security Researcher","url":"https://linkinbio-cipher.pintuweb.id","inLanguage":"id"}};
 
 export const metadata = {
-  metadataBase: new URL("https://linkinbio-cipher.vercel.app"),
+  metadataBase: new URL("https://linkinbio-cipher.pintuweb.id"),
   title: { default: "c1ph3r — Security Researcher & Pemain CTF", template: "%s — c1ph3r" },
   description: "Tautan c1ph3r, peneliti keamanan dan pemain CTF: writeup soal CTF, kebijakan pengungkapan 90 hari, jadwal seminar dan workshop, serta formulir kontak — dalam satu terminal.",
   applicationName: "cipher",
@@ -14,11 +14,11 @@ export const metadata = {
   authors: [{ name: "cipher" }],
   creator: "cipher",
   publisher: "cipher",
-  alternates: { canonical: "https://linkinbio-cipher.vercel.app" },
+  alternates: { canonical: "https://linkinbio-cipher.pintuweb.id" },
   openGraph: {
     type: "website",
     locale: "id_ID",
-    url: "https://linkinbio-cipher.vercel.app",
+    url: "https://linkinbio-cipher.pintuweb.id",
     siteName: "cipher",
     title: "c1ph3r — Security Researcher & Pemain CTF",
     description: "Tautan c1ph3r, peneliti keamanan dan pemain CTF: writeup soal CTF, kebijakan pengungkapan 90 hari, jadwal seminar dan workshop, serta formulir kontak — dalam satu terminal.",
