@@ -1,6 +1,6 @@
 # c1ph3r — Security Researcher & Pemain CTF
 
-Tautan c1ph3r, peneliti keamanan dan pemain CTF: writeup soal CTF, kebijakan pengungkapan 90 hari, jadwal seminar dan workshop, serta formulir kontak — dalam satu terminal.
+Tautan c1ph3r, peneliti keamanan dan pemain CTF: writeup soal CTF, kebijakan pengungkapan 90 hari, jadwal seminar dan workshop, dan formulir kontak.
 
 **Demo live:** https://linkinbio-cipher.pintuweb.id
 
@@ -16,7 +16,7 @@ Persona c1ph3r, security researcher. Terminal penuh: perintah `whoami` yang dike
 
 - `/` — terminal CRT: ketikan whoami, daftar ls -la berbit izin; tautan tetap ada di HTML awal (tidak bergantung JavaScript)
 - `/writeups` — empat writeup CTF fiktif dan kebijakan pengungkapan
-- `/talks` — seminar & workshop Okt–Des 2026, formulir kontak bergaya perintah terminal
+- `/talks` — seminar & workshop (tanggal relatif, menurut WIB), formulir kontak bergaya perintah terminal
 
 ## Teknologi
 

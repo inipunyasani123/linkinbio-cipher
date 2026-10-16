@@ -4,13 +4,13 @@ import { useState } from 'react';
 
 export default function FormKontak() {
   const [log, setLog] = useState(null);
-  const input = 'w-full border-b border-fosfor/40 bg-transparent py-1.5 text-fosfor placeholder:text-fosfor/50 focus:border-fosfor focus:outline-none';
+  const input = 'w-full border-b border-fosfor/50 bg-transparent py-2 text-fosfor placeholder:text-fosfor/50 focus:border-fosfor';
 
   if (log) {
     return (
       <div role="status" className="mt-4 space-y-1">
         {log.map((l) => <p key={l} className="text-fosfor/90">{l}</p>)}
-        <button type="button" onClick={() => setLog(null)} className="mt-3 rounded border border-fosfor/40 px-3 py-1.5 text-xs hover:bg-fosfor/10">./contact --ulang</button>
+        <button type="button" onClick={() => setLog(null)} className="mt-3 min-h-11 rounded border border-fosfor/40 px-3 py-1.5 text-xs hover:bg-fosfor/10">./contact --ulang</button>
       </div>
     );
   }
@@ -44,7 +44,7 @@ export default function FormKontak() {
         <label htmlFor="k-pesan" className="text-xs text-dim">--pesan</label>
         <textarea id="k-pesan" required rows={4} className={input} />
       </div>
-      <button type="submit" className="rounded border border-fosfor bg-fosfor/10 py-2.5 font-bold hover:bg-fosfor hover:text-crt sm:col-span-2">$ kirim</button>
+      <button type="submit" className="min-h-11 rounded border border-fosfor bg-fosfor/10 py-2.5 font-bold hover:bg-fosfor hover:text-crt sm:col-span-2">$ kirim</button>
     </form>
   );
 }

@@ -8,7 +8,7 @@ const __jsonld = {"@context":"https://schema.org","@type":"ProfilePage","mainEnt
 export const metadata = {
   metadataBase: new URL("https://linkinbio-cipher.pintuweb.id"),
   title: { default: "c1ph3r — Security Researcher & Pemain CTF", template: "%s — c1ph3r" },
-  description: "Tautan c1ph3r, peneliti keamanan dan pemain CTF: writeup soal CTF, kebijakan pengungkapan 90 hari, jadwal seminar dan workshop, serta formulir kontak — dalam satu terminal.",
+  description: "Tautan c1ph3r, peneliti keamanan dan pemain CTF: writeup soal CTF, kebijakan pengungkapan 90 hari, jadwal seminar dan workshop, dan formulir kontak.",
   applicationName: "cipher",
   keywords: ["security researcher", "writeup ctf", "responsible disclosure", "workshop keamanan siber", "link in bio hacker"],
   authors: [{ name: "cipher" }],
@@ -21,13 +21,13 @@ export const metadata = {
     url: "https://linkinbio-cipher.pintuweb.id",
     siteName: "cipher",
     title: "c1ph3r — Security Researcher & Pemain CTF",
-    description: "Tautan c1ph3r, peneliti keamanan dan pemain CTF: writeup soal CTF, kebijakan pengungkapan 90 hari, jadwal seminar dan workshop, serta formulir kontak — dalam satu terminal.",
+    description: "Tautan c1ph3r, peneliti keamanan dan pemain CTF: writeup soal CTF, kebijakan pengungkapan 90 hari, jadwal seminar dan workshop, dan formulir kontak.",
     images: [{ url: "/og.jpg", width: 1200, height: 630, alt: "c1ph3r — Security Researcher & Pemain CTF" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "c1ph3r — Security Researcher & Pemain CTF",
-    description: "Tautan c1ph3r, peneliti keamanan dan pemain CTF: writeup soal CTF, kebijakan pengungkapan 90 hari, jadwal seminar dan workshop, serta formulir kontak — dalam satu terminal.",
+    description: "Tautan c1ph3r, peneliti keamanan dan pemain CTF: writeup soal CTF, kebijakan pengungkapan 90 hari, jadwal seminar dan workshop, dan formulir kontak.",
     images: ["/og.jpg"],
   },
   robots: {

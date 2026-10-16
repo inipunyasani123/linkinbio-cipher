@@ -10,7 +10,7 @@ export default function Terminal({ perintah, children }) {
           <span aria-hidden="true" className="h-3 w-3 rounded-full bg-red-500/70" />
           <span aria-hidden="true" className="h-3 w-3 rounded-full bg-yellow-500/70" />
           <span aria-hidden="true" className="h-3 w-3 rounded-full bg-green-500/70" />
-          <Link href="/" className="ml-3 text-xs text-fosfor/75 hover:text-fosfor hover:underline">← cd ~ ({PROFIL.handle}@links)</Link>
+          <Link href="/" className="-my-3 ml-3 inline-flex min-h-11 items-center text-xs text-fosfor/75 hover:text-fosfor hover:underline">← cd ~ ({PROFIL.handle}@links)</Link>
         </div>
         <div className="p-5 text-sm leading-relaxed md:p-7">
           <p><span className="text-dim">{PROFIL.handle}@links</span><span className="text-fosfor/70">:~$</span> {perintah}</p>
