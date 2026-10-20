@@ -24,7 +24,12 @@ export default function Home() {
         <div className="p-5 text-sm leading-relaxed md:p-7 lg:p-9 lg:text-[15px]">
           <p className="text-fosfor/70"># Selamat datang. Semua tautan dapat dieksekusi.</p>
           <p className="mt-3">{prompt} <Ketik teks="whoami" /></p>
-          <h1 className="rise mt-1 text-base font-normal text-fosfor lg:text-lg" style={{ animationDelay: '0.5s' }}>{PROFIL.handle} — {PROFIL.peran}</h1>
+          <div className="rise mt-2 flex flex-col gap-3 sm:flex-row sm:items-center sm:gap-5" style={{ animationDelay: '0.5s' }}>
+            {/* Avatar piksel 80×80 (3 warna, di-dither) diperbesar 2× tanpa penghalusan. Persona fiktif. */}
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/images/c1ph3r.png" alt="Avatar piksel c1ph3r: wajah berkacamata dengan kupluk dan headphone, berwarna fosfor hijau" width={160} height={160} className="piksel h-40 w-40 shrink-0 rounded border border-fosfor/25" />
+            <h1 className="text-base font-normal text-fosfor lg:text-lg">{PROFIL.handle} — {PROFIL.peran}</h1>
+          </div>
 
           <p className="rise mt-4" style={{ animationDelay: '0.62s' }}>{prompt} ls -la ./links</p>
           <nav className="rise mt-2 space-y-0.5" style={{ animationDelay: '0.75s' }} aria-label="Tautan">
