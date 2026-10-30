@@ -27,7 +27,7 @@ export default function Home() {
           <div className="rise mt-2 flex flex-col gap-3 sm:flex-row sm:items-center sm:gap-5" style={{ animationDelay: '0.5s' }}>
             {/* Avatar piksel 80×80 (3 warna, di-dither) diperbesar 2× tanpa penghalusan. Persona fiktif. */}
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/images/c1ph3r.png" alt="Avatar piksel c1ph3r: wajah berkacamata dengan kupluk dan headphone, berwarna fosfor hijau" width={160} height={160} className="piksel h-40 w-40 shrink-0 rounded border border-fosfor/25" />
+            <img src="/images/c1ph3r.png" alt="Avatar piksel c1ph3r: siluet kepala tanpa wajah dengan kupluk dan headphone, berwarna fosfor hijau" width={160} height={160} className="piksel h-40 w-40 shrink-0 rounded border border-fosfor/25" />
             <h1 className="text-base font-normal text-fosfor lg:text-lg">{PROFIL.handle} — {PROFIL.peran}</h1>
           </div>
 
